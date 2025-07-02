@@ -21,7 +21,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(cors({
-  origin: 'https://leave-management-gilt.vercel.app/',
+  origin: 'https://leave-management-gilt.vercel.app',
   credentials: true 
 }));
 
